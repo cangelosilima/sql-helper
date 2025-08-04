@@ -19,7 +19,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\src\FI.Developer.SqlServerHelper.Core\FI.Developer.SqlServerHelper.Core.csproj" />
-    <ProjectReference Include="..\..\src\FI.Developer.SqlServerHelper.CLI\FI.Developer.SqlServerHelper.CLI.csproj" />
   </ItemGroup>
 
 </Project>
