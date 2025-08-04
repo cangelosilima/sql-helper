@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A1B2C3D4-E5F6-7890-1234-567890ABCDEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FI.Developer.SqlServerHelper.Core", "FI.Developer.SqlServerHelper.Core\FI.Developer.SqlServerHelper.Core.csproj", "{8100509B-8EF4-4C39-999F-11F63273E84E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FI.Developer.SqlServerHelper.CLI", "FI.Developer.SqlServerHelper.CLI\FI.Developer.SqlServerHelper.CLI.csproj", "{CC27D0A8-6069-4E39-81E1-23C190EEEFB3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{B1B2B3B4-B5B6-B7B8-B9B0-B1B2B3B4B5B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FI.Developer.SqlServerHelper.Tests", "FI.Developer.SqlServerHelper.Tests\FI.Developer.SqlServerHelper.Tests.csproj", "{2431CABC-4746-4F97-92BF-B8568106408F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FI.Developer.SqlServerHelper.SSMS.Tool", "FI.Developer.SqlServerHelper.SSMS.Tool\FI.Developer.SqlServerHelper.SSMS.Tool.csproj", "{783F3FBF-5555-4567-AF0D-FDE05F3D89B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8100509B-8EF4-4C39-999F-11F63273E84E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8100509B-8EF4-4C39-999F-11F63273E84E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8100509B-8EF4-4C39-999F-11F63273E84E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8100509B-8EF4-4C39-999F-11F63273E84E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC27D0A8-6069-4E39-81E1-23C190EEEFB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC27D0A8-6069-4E39-81E1-23C190EEEFB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC27D0A8-6069-4E39-81E1-23C190EEEFB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC27D0A8-6069-4E39-81E1-23C190EEEFB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2431CABC-4746-4F97-92BF-B8568106408F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2431CABC-4746-4F97-92BF-B8568106408F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2431CABC-4746-4F97-92BF-B8568106408F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2431CABC-4746-4F97-92BF-B8568106408F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{783F3FBF-5555-4567-AF0D-FDE05F3D89B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{783F3FBF-5555-4567-AF0D-FDE05F3D89B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{783F3FBF-5555-4567-AF0D-FDE05F3D89B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{783F3FBF-5555-4567-AF0D-FDE05F3D89B6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8100509B-8EF4-4C39-999F-11F63273E84E} = {A1B2C3D4-E5F6-7890-1234-567890ABCDEF}
+		{CC27D0A8-6069-4E39-81E1-23C190EEEFB3} = {A1B2C3D4-E5F6-7890-1234-567890ABCDEF}
+		{2431CABC-4746-4F97-92BF-B8568106408F} = {B1B2B3B4-B5B6-B7B8-B9B0-B1B2B3B4B5B6}
+		{783F3FBF-5555-4567-AF0D-FDE05F3D89B6} = {A1B2C3D4-E5F6-7890-1234-567890ABCDEF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {76D3FD0D-6B9F-4440-9B4A-A5EB07C1963C}
+	EndGlobalSection
+EndGlobal
