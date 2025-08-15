@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Extensibility xmlns="http://schemas.microsoft.com/AutomationExtensibility">
+  <HostApplication>
+    <n>Microsoft SQL Server Management Studio</n>
+    <Version>11.0</Version>
+  </HostApplication>
+  <Addin>
+    <FriendlyName>SSMS Query Add-in</FriendlyName>
+    <Description>Add-in para criar queries rapidamente no SQL Server Management Studio</Description>
+    <Assembly>SSMSQueryAddin.dll</Assembly>
+    <FullClassName>SSMSQueryAddin.Connect</FullClassName>
+    <LoadBehavior>1</LoadBehavior>
+    <CommandPreload>0</CommandPreload>
+  </Addin>
+</Extensibility>
